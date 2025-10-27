@@ -1,10 +1,389 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>FABiLAB</title>
+  <meta charset="UTF-8">
+  <title>FabilabWorks</title>
+  <link rel="icon" type="image/ico" href="favicons/FabilabWorks.ico">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>FABiLAB Works</h1>
+<header>
+  <div class="theme-selector">
+    <label for="theme-select">Theme:</label>
+    <select id="theme-select">
+      <option value="system">Follow OS</option>
+      <option value="light">Light</option>
+      <option value="dark">Dark</option>
+    </select>
+  </div>
+</header>
+<main>
+  <img src="png/FabilabWorks.png" alt="" width="64" height="64"/>
+  <h1> Fabien's 🛠️ Infrastructure, 📚 Libs, 💻Apps and 🌠 Beyond</h1>
+  <h2>🐞 Bug Tracking:
+    <span class="icons" aria-hidden="false">
+      <a href="https://fabilabworks.atlassian.net/jira"
+         target="_blank" rel="noopener noreferrer">
+        <img src="favicons/BugTracking/Jira.ico" alt="Jira"/>
+      </a>
+      <a href="https://fabilabworks.youtrack.cloud"
+         target="_blank" rel="noopener noreferrer">
+        <img src="favicons/BugTracking/YouTrack.ico" alt="YouTrack"/>
+      </a>
+      <a href="https://www.redmine.org/users/725729"
+         target="_blank" rel="noopener noreferrer">
+        <img src="favicons/BugTracking/Redmine.ico" alt="Redmine"/>
+      </a>
+      <a href="https://fabilabworks.app.userback.io"
+   target="_blank" rel="noopener noreferrer">
+        <img src="favicons/BugTracking/Userback.png" alt="Userback"/>
+      </a>
+    </span>
+  </h2>
+  <h2>🔧 Code Hosting:
+    <span class="icons" aria-hidden="false">
+      <a href="https://github.com/fabilabworks"
+         target="_blank" rel="noopener noreferrer">
+        <img src="favicons/CodeHosting/GitHub.ico" alt="GitHub"/>
+      </a>
+      <a href="https://gitlab.com/fabilabworks"
+         target="_blank" rel="noopener noreferrer">
+          <img src="favicons/CodeHosting/GitLab.png" alt="GitLab"/>
+      </a>
+      <a href="https://bitbucket.org/fabilabworks/workspace/overview"
+         target="_blank" rel="noopener noreferrer">
+          <img src="favicons/CodeHosting/BitBucket.ico" alt="BitBucket"/>
+      </a>
+      <a href="https://sourceforge.net/u/fabien-launay"
+         target="_blank" rel="noopener noreferrer">
+          <img src="favicons/CodeHosting/SourceForge.png" alt="SourceForge"/>
+      </a>
+      <a href="https://gitea.com/fabilabworks"
+         target="_blank" rel="noopener noreferrer">
+          <img src="favicons/CodeHosting/Gitea.png" alt="Gitea"/>
+      </a>
+      <a href="https://codeberg.org/fabilabworks"
+         target="_blank" rel="noopener noreferrer">
+          <img src="favicons/CodeHosting/Codeberg.png" alt="Gitea"/>
+      </a>
+      <a href="https://savannah.gnu.org/users/fabilabworks"
+         target="_blank" rel="noopener noreferrer">
+          <img src="favicons/CodeHosting/Savannah.png" alt="Savannah"/>
+      </a>
+      <a href="https://launchpad.net/~fabilabworks"
+         target="_blank" rel="noopener noreferrer">
+          <img src="favicons/CodeHosting/Launchpad.png" alt="Launchpad"/>
+      </a>
+      <a href="https://forge-allura.apache.org/u/fabilabworks"
+         target="_blank" rel="noopener noreferrer">
+          <img src="favicons/CodeHosting/ApacheAllura.ico" alt="ApacheAllura"/>
+      </a>
+      <a href="https://sr.ht/~fabilabworks"
+         target="_blank" rel="noopener noreferrer">
+          <img src="favicons/CodeHosting/SourceHut.png" alt="SourceHut"/>
+      </a>
+      <a href="https://quay.io/user/fabilabworks"
+         target="_blank" rel="noopener noreferrer">
+          <img src="favicons/CodeHosting/RedHatQuay.png" alt="RedHatQuay"/>
+      </a>
+      <a href="https://dev.azure.com/fabilabworks"
+         target="_blank" rel="noopener noreferrer">
+          <img src="favicons/CodeHosting/MicrosoftAzureDevOps.ico"
+               alt="MicrosoftAzureDevOps"/>
+      </a>
+      </span>
+  </h2>
+  <h2>📦 Package Registries:
+    <span class="icons" aria-hidden="false">
+    <a href="https://hub.docker.com/u/fabilabworks"
+       target="_blank" rel="noopener noreferrer">
+        <img src="favicons/PackageRegistries/DockerHuh.ico" alt="DockerHuh"/>
+    </a>
+    <a href="https://rubygems.org/profiles/fabilabworks"
+       target="_blank" rel="noopener noreferrer">
+        <img src="favicons/PackageRegistries/RubyGems.ico" alt="RubyGems"/>
+    </a>
+    <a href="https://pypi.org/user/fabilabworks"
+       target="_blank" rel="noopener noreferrer">
+        <img src="favicons/PackageRegistries/PyPi.ico" alt="PyPi"/>
+    </a>
+    <a href="https://www.npmjs.com/~fabilabworks"
+       target="_blank" rel="noopener noreferrer">
+        <img src="favicons/PackageRegistries/Npm.png" alt="Npm"/>
+    </a>
+    <a href="https://central.sonatype.com/search?namespace=org.fabilabworks"
+       target="_blank" rel="noopener noreferrer">
+        <img src="favicons/PackageRegistries/MavenCentral.ico" alt="MavenCentral"/>
+    </a>
+    <a href="https://www.nuget.org/profiles/fabilabworks"
+       target="_blank" rel="noopener noreferrer">
+        <img src="favicons/PackageRegistries/Nuget.ico" alt="Nuget"/>
+    </a>
+    <a href="https://crates.io/search?q=fabilabworks"
+       target="_blank" rel="noopener noreferrer">
+        <img src="favicons/PackageRegistries/Crates.ico" alt="Crates"/>
+    </a>
+    <a href="https://community.chocolatey.org/profiles/fabilabworks"
+       target="_blank" rel="noopener noreferrer">
+        <img src="favicons/PackageRegistries/Chocolatey.ico" alt="Chocolatey"/>
+    </a>
+    <a href="https://hackage.haskell.org/user/fabilabworks"
+       target="_blank" rel="noopener noreferrer">
+        <img src="favicons/PackageRegistries/Hackage.png" alt="Hackage"/>
+    </a>
+    <a href="https://packagist.org/users/fabilabworks"
+       target="_blank" rel="noopener noreferrer">
+        <img src="favicons/PackageRegistries/Packagist.ico" alt="Packagist"/>
+    </a>
+    <a href="https://luarocks.org/modules/fabilabworks"
+       target="_blank" rel="noopener noreferrer">
+        <img src="favicons/PackageRegistries/LuaRocks.ico" alt="LuaRocks"/>
+    </a>
+    <a href="https://hex.pm/users/fabilabworks"
+       target="_blank" rel="noopener noreferrer">
+        <img src="favicons/PackageRegistries/Hex.ico" alt="Hex"/>
+    </a>
+    <a
+      href="https://cloud.unity.com/home/organizations/15669616349791/projects/5c997b6c-96ff-42f0-9be2-b8c34392c541"
+      target="_blank" rel="noopener noreferrer">
+        <img src="favicons/PackageRegistries/Unity.ico" alt="Unity"/>
+    </a>
+    <a href="https://godotengine.org/asset-library/asset?user=fabilabworks"
+       target="_blank" rel="noopener noreferrer">
+        <img src="favicons/PackageRegistries/Godot.ico" alt="Godot"/>
+    </a>
+    </span>
+  </h2>
+  <h2>🗣️ Communities / Q&A:
+    <span class="icons" aria-hidden="false">
+      <a href="https://stackoverflow.com/users/31487701/fabilabworks"
+         target="_blank" rel="noopener noreferrer">
+        <img src="favicons/CommunitiesQAndA/StackOverflow.ico" alt="StackOverflow"/>
+      </a>
+      <a href="https://www.reddit.com/r/fabilabworks/"
+         target="_blank" rel="noopener noreferrer">
+        <img src="favicons/CommunitiesQAndA/Reddit.ico" alt="Reddit"/>
+      </a>
+      <a href="https://dev.to/fabilabworks"
+         target="_blank" rel="noopener noreferrer">
+        <img src="favicons/CommunitiesQAndA/DevCommunity.ico" alt="DevCommunity"/>
+      </a>
+      <a href="https://medium.com/@fabilabworks"
+         target="_blank" rel="noopener noreferrer">
+        <img src="favicons/CommunitiesQAndA/Medium.ico" alt="Medium"/>
+      </a>
+      <a href="https://substack.com/@fabilabworks"
+         target="_blank" rel="noopener noreferrer">
+        <img src="favicons/CommunitiesQAndA/Substack.ico" alt="Substack"/>
+      </a>
+      <a href="https://fabilabworks.wordpress.com"
+         target="_blank" rel="noopener noreferrer">
+        <img src="favicons/CommunitiesQAndA/WordPress.png" alt="WordPress"/>
+      </a>
+    </span>
+  </h2>
+  <h2>🗪 Social / Networking:
+    <span class="icons" aria-hidden="false">
+      <a href="https://x.com/fabilabworks"
+         target="_blank" rel="noopener noreferrer">
+        <img src="favicons/SocialNetworking/X.ico" alt="X"/>
+      </a>
+      <a
+        href="https://discord.com/channels/1416762965935521935/1416762966958669987"
+        target="_blank" rel="noopener noreferrer">
+        <img src="favicons/SocialNetworking/Discord.ico" alt="Discord"/>
+      </a>
+      <a href="https://fabilabworks.slack.com"
+         target="_blank" rel="noopener noreferrer">
+        <img src="favicons/SocialNetworking/Slack.ico" alt="Slack"/>
+      </a>
+      <a href="https://mastodon.social/@fabilabworks"
+         target="_blank" rel="noopener noreferrer">
+        <img src="favicons/SocialNetworking/Mastodon.ico" alt="Mastodon"/>
+      </a>
+      <a href="https://www.linkedin.com/company/fabilabworks"
+         target="_blank" rel="noopener noreferrer">
+        <img src="favicons/SocialNetworking/LinkedIn.ico" alt="LinkedIn"/>
+      </a>
+      <a href="https://fabilabworks.zulipchat.com"
+         target="_blank" rel="noopener noreferrer">
+        <img src="favicons/SocialNetworking/Zulip.ico" alt="Zulip"/>
+      </a>
+      <a href="https://bsky.app/profile/fabilabworks.bsky.social"
+         target="_blank" rel="noopener noreferrer">
+        <img src="favicons/SocialNetworking/Bluesky.ico" alt="Bluesky"/>
+      </a>
+      <a href="https://www.pinterest.com/fabilabworks"
+         target="_blank" rel="noopener noreferrer">
+        <img src="favicons/SocialNetworking/Pinterest.ico" alt="Pinterest"/>
+      </a>
+    </span>
+  </h2>
+  <h2>📷 Media / Content:
+    <span class="icons" aria-hidden="false">
+      <a href="https://www.youtube.com/@fabilabworks"
+         target="_blank" rel="noopener noreferrer">
+        <img src="favicons/MediaContent/YouTube.ico" alt="YouTube"/>
+      </a>
+      <a href="https://www.twitch.tv/fabilabworks"
+         target="_blank" rel="noopener noreferrer">
+        <img src="favicons/MediaContent/Twitch.ico" alt="Twitch"/>
+      </a>
+      <a href="https://www.instagram.com/fabilabworks"
+         target="_blank" rel="noopener noreferrer">
+        <img src="favicons/MediaContent/Instagram.ico" alt="Instagram"/>
+      </a>
+      <a href="https://vimeo.com/fabilabworks"
+         target="_blank" rel="noopener noreferrer">
+        <img src="favicons/MediaContent/Vimeo.ico" alt="Vimeo"/>
+      </a>
+      <a href="http://open.spotify.com/user/31skzfjxhsytwejavxgvg3nwa6a4"
+         target="_blank" rel="noopener noreferrer">
+        <img src="favicons/MediaContent/Spotify.ico" alt="Spotify"/>
+      </a>
+      <a href="https://www.dailymotion.com/fabilabworks"
+         target="_blank" rel="noopener noreferrer">
+        <img src="favicons/MediaContent/Dailymotion.ico" alt="Dailymotion"/>
+      </a>
+    </span>
+  </h2>
+  <h2>🔐 Security / Identity:
+    <span class="icons" aria-hidden="false">
+      <a href="https://keybase.io/fabilabworks"
+         target="_blank" rel="noopener noreferrer">
+        <img src="favicons/SecurityIdentity/Keybase.ico" alt="Keybase"/>
+      </a>
+      <a href="https://orcid.org/0009-0008-8227-5038"
+         target="_blank" rel="noopener noreferrer">
+        <img src="favicons/SecurityIdentity/ORCID.ico" alt="ORCID"/>
+      </a>
+      <a href="https://gravatar.com/fabilabworksofficial"
+         target="_blank" rel="noopener noreferrer">
+        <img src="favicons/SecurityIdentity/Gravatar.ico" alt="Gravatar"/>
+      </a>
+      <a href="https://manage.auth0.com/dashboard/us/fabilabworks"
+         target="_blank" rel="noopener noreferrer">
+        <img src="favicons/SecurityIdentity/Auth0.ico" alt="Auth0"/>
+      </a>
+      <a href="https://libravatar.org"
+         target="_blank" rel="noopener noreferrer">
+        <img src="favicons/SecurityIdentity/Libravatar.ico" alt="Libravatar"/>
+      </a>
+    </span>
+  </h2>
+  <h2>🛠️ Design Tools:
+    <span class="icons" aria-hidden="false">
+      <a href="https://fritzing.org/users/fabilabworks"
+         target="_blank" rel="noopener noreferrer">
+        <img src="favicons/DesignTools/Fritzing.ico" alt="Fritzing"/>
+      </a>
+      <a href="https://musescore.com/user/107950486"
+         target="_blank" rel="noopener noreferrer">
+        <img src="favicons/DesignTools/MuseScore.ico" alt="MuseScore"/>
+      </a>
+      <a href="https://www.hackster.io/fabilabworks"
+         target="_blank" rel="noopener noreferrer">
+        <img src="favicons/DesignTools/Hackster.ico" alt="Hackster"/>
+      </a>
+      <a href="https://www.arduino.cc/"
+         target="_blank" rel="noopener noreferrer">
+        <img src="favicons/DesignTools/Arduino.ico" alt="Arduino"/>
+      </a>
+    </span>
+  </h2>
+  <h2>🎓 Learning:
+    <span class="icons" aria-hidden="false">
+      <a href="https://www.udemy.com/user/fabilabworks/"
+         target="_blank" rel="noopener noreferrer">
+        <img src="favicons/Learning/Udemy.ico" alt="Udemy"/>
+      </a>
+      <a href="https://www.skillshare.com"
+         target="_blank" rel="noopener noreferrer">
+        <img src="favicons/Learning/Skillshare.ico" alt="Skillshare"/>
+      </a>
+      <a href="https://www.domestika.org/en/fabilabworks"
+         target="_blank" rel="noopener noreferrer">
+        <img src="favicons/Learning/Domestika.ico" alt="Domestika"/>
+      </a>
+      <a href="https://www.coursera.org/user/b133f1efdfa9242ecc566c6215298fc4"
+         target="_blank" rel="noopener noreferrer">
+        <img src="favicons/Learning/Coursera.ico" alt="Coursera"/>
+      </a>
+      <a href="https://profile.edx.org/u/fabilabworks"
+         target="_blank" rel="noopener noreferrer">
+        <img src="favicons/Learning/EdX.ico" alt="EdX"/>
+      </a>
+      <a href="https://teachable.com"
+         target="_blank" rel="noopener noreferrer">
+        <img src="favicons/Learning/Teachable.ico" alt="Teachable"/>
+      </a>
+      <a href="https://www.thinkific.com"
+         target="_blank" rel="noopener noreferrer">
+        <img src="favicons/Learning/Thinkific.ico" alt="Thinkific"/>
+      </a>
+      <a href="https://www.udacity.com"
+         target="_blank" rel="noopener noreferrer">
+        <img src="favicons/Learning/Udacity.ico" alt="Udacity"/>
+      </a>
+    </span>
+  </h2>
+  <h2>☕ Donations:
+    <span class="icons" aria-hidden="false">
+      <a href="https://ko-fi.com/fabilabworks"
+         target="_blank" rel="noopener noreferrer">
+        <img src="favicons/Donations/Ko-fi.ico" alt="Ko-fi"/>
+      </a>
+    </span>
+    <span class="icons" aria-hidden="false">
+      <a href="https://www.patreon.com/cw/fabilabworks"
+         target="_blank" rel="noopener noreferrer">
+        <img src="favicons/Donations/Patreon.ico" alt="Patreon"/>
+      </a>
+    </span>
+    <span class="icons" aria-hidden="false">
+      <a href="https://buymeacoffee.com/fabilabworks"
+         target="_blank" rel="noopener noreferrer">
+        <img src="favicons/Donations/BuyMeACoffee.ico" alt="BuyMeACoffee"/>
+      </a>
+    </span>
+    <span class="icons" aria-hidden="false">
+      <a href="https://liberapay.com/fabilabworks"
+         target="_blank" rel="noopener noreferrer">
+        <img src="favicons/Donations/Liberapay.ico" alt="Liberapay"/>
+      </a>
+    </span>
+    <span class="icons" aria-hidden="false">
+      <a href="https://www.kickstarter.com/profile/1636255124"
+         target="_blank" rel="noopener noreferrer">
+        <img src="favicons/Donations/Kickstarter.ico" alt="Kickstarter"/>
+      </a>
+    </span>
+    <span class="icons" aria-hidden="false">
+      <a href="https://www.indiegogo.com/individuals/38770529"
+         target="_blank" rel="noopener noreferrer">
+        <img src="favicons/Donations/Indiegogo.ico" alt="Indiegogo"/>
+      </a>
+    </span>
+    <span class="icons" aria-hidden="false">
+      <a href="https://www.makuake.com"
+         target="_blank" rel="noopener noreferrer">
+        <img src="favicons/Donations/Makuake.ico" alt="Makuake"/>
+      </a>
+    </span>
+    <span class="icons" aria-hidden="false">
+      <a href="https://opencollective.com/fabilabworks"
+         target="_blank" rel="noopener noreferrer">
+        <img src="favicons/Donations/OpenCollective.ico" alt="OpenCollective"/>
+      </a>
+    </span>
+    <span class="icons" aria-hidden="false">
+      <a href="https://gov.gitcoin.co/u/fabilabworks"
+         target="_blank" rel="noopener noreferrer">
+        <img src="favicons/Donations/Gitcoin.png" alt="Gitcoin"/>
+      </a>
+    </span>
+  </h2>
+  <script src="theme.js"></script>
+</main>
 </body>
 </html>
